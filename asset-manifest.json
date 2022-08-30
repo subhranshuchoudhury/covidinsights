@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/covidinsights/static/css/main.763c2f2f.css",
+    "main.js": "/covidinsights/static/js/main.311a34a0.js",
+    "index.html": "/covidinsights/index.html",
+    "main.763c2f2f.css.map": "/covidinsights/static/css/main.763c2f2f.css.map",
+    "main.311a34a0.js.map": "/covidinsights/static/js/main.311a34a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.763c2f2f.css",
+    "static/js/main.311a34a0.js"
+  ]
+}
