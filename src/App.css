@@ -1,38 +1,53 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Ubuntu&display=swap');
+
+body {
+  background-color: white;
+  /* background-color: #0F3460; */
+}
+
+.card {
+  display: inline-block;
+  margin: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cardContainer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-img-top {
+  margin-top: 5px;
+  height: 200px;
+  width: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.injection {
+  width: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-title {
+  font-weight: bolder;
   color: white;
+  font-size: 50px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: 'Nunito', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.footerText {
+  color: white;
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerLogo {
+  font-size: 100px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+.card-text {
+  font-family: 'Ubuntu', sans-serif;
+  color: blue;
 }

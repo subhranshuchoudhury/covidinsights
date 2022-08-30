@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import Footer from './footer/Footer';
+import Header from './header/Header';
 import './App.css';
+import Scraper from './grabber/Scrapper';
 
 function App() {
+  const d = new Date;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={d.getHours() > 17 ? { backgroundColor: "#0F3460" } : { backgroundColor: "white" }}>
+      <Header />
+      <Scraper />
+      <Footer />
     </div>
   );
 }
