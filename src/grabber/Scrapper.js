@@ -21,8 +21,6 @@ const Scraper = () => {
             const deathCase = $('.bg-red strong:nth-of-type(2)');
             const totalVaccination = $('span.coviddata');
 
-            console.log("Active Case: " + activeCase.text().trim());
-            console.log("Discharged: " + discharged.text().trim());
 
             const DataArray = [activeCase.text().trim(), discharged.text().trim(), deathCase.text().trim(), totalVaccination.text().trim()];
             setCovidData(DataArray);
@@ -84,10 +82,10 @@ const Scraper = () => {
                 </div>
 
 
+                <br></br>
 
 
-
-                <div className="card" style={{ width: "36rem" }}>
+                <div className="card" style={{ width: "80%" }}>
                     <img src="./injection2.png" className="card-img-top injection" alt="..."></img>
                     <div className="card-body">
                         <Loader covidData={covidData} />

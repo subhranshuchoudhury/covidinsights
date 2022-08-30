@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Ubuntu&display=swap');
 
-body {
-  background-color: white;
-  /* background-color: #0F3460; */
-}
-
 .card {
   display: inline-block;
   margin: 20px;
@@ -28,9 +23,9 @@ body {
 
 .card-title {
   font-weight: bolder;
-  color: white;
+  color: #0F3460;
   font-size: 50px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
   font-family: 'Nunito', sans-serif;
 }
 
@@ -39,15 +34,22 @@ body {
   padding: 5px;
 }
 
-.headerLogo {
+.headerLogo,
+.headerLogoChild {
   font-size: 100px;
   color: white;
   font-family: 'Oswald', sans-serif;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.headerLogoChild {
+  font-size: 50px;
+}
+
 
 .card-text {
   font-family: 'Ubuntu', sans-serif;
-  color: blue;
+  color: #0F3460;
+  font-weight: bold;
+
 }

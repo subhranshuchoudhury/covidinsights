@@ -2,11 +2,14 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <ul class="nav justify-content-center">
-            <li className="nav-item">
-                <p className='headerLogo'>COVID 19</p>
-            </li>
-        </ul>
+        <center>
+            <ul className="nav justify-content-center">
+                <li className="nav-item">
+                    <p className='headerLogo'>COVID 19</p>
+                    <p className='headerLogoChild'>Insights</p>
+                </li>
+            </ul>
+        </center>
     );
 }
 
